@@ -1,0 +1,151 @@
+body{
+    background-color: #193b681a;
+}
+.navbarBg{
+    background-color: white;
+    padding-left: 4.5%;
+    color: #1470ff;
+    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+}
+.navUl{
+    padding-right: 4.5%;
+}
+.sidebar{
+    width: 17%;
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
+h1{
+    font-family: "Lato";
+    color: #193b68;
+}
+h3{
+    font-family: 'Lato';
+    color: #1470ff;
+}
+h2{
+    font-family: "Lato";
+    color: #193b68;
+    text-transform: uppercase;
+}
+hr{
+    border-top: 1px solid #1470ff;
+}
+
+.actionBtn{
+    width: 100%;
+    margin-top: 20%;
+    display: block;
+}
+.unactive{
+    width: 100%;
+    height: 40px;
+    color: #1479ff;
+    opacity: 0.5;
+    border: 2px solid #1479ff8e;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 3%;
+}
+.active{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: #1470ff;
+    border: 2px solid #1470ff;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3%;
+    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+}
+.active:hover, .unactive:hover{
+    color: #1470ff;
+    text-decoration: none;
+}
+
+.Formdiv{
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    left: 27%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.PostDiv{
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    left: 27%;
+}
+label{
+    color: #193b68;
+}
+.highlight{
+    border: 1px solid #1470ff;
+}
+.post{
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2%;
+}
+.primary{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1470ff;
+    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.secondary{
+    width: 200px;
+    height: 40px;
+    border: 2px solid #1470ff;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+    color: #1470ff;
+    text-align: center;
+    justify-content: center;
+}
+.secondary2{
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1470ff1a;
+    box-shadow:0px 0px 3px 2px rgba(0, 0, 0, 0.1);
+    color: #1470ff;
+    text-align: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+.end{
+    position: relative;
+}
+.action{
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    top: 1%;
+    right: 2%;
+}
+.Greeting{
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    width: 25%;
+    height: 400px;
+    background-color: white;
+    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
