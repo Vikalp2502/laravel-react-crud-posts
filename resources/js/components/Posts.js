@@ -17,6 +17,14 @@ class Posts extends React.Component {
     componentDidMount(){
         this.fetchPosts();
     }
+
+    deletePost = async (id) => {
+        const res = await Axios.delete(`/addPost/${id}`);
+        if(res.data.status === 200){
+            this.fetchPosts();
+        }
+    }
+
     render(){
         if(this.state.loading){
             return <h1>Loading....</h1>
@@ -24,7 +32,7 @@ class Posts extends React.Component {
         return(
             <div>
                 {this.state.posts.map(posts => (
-                    <Data posts = {posts} key={posts.id}/>
+                    <Data posts = {posts} key={posts.id} deletePost = {this.deletePost}/>
                 ))}
             </div>
         )

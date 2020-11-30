@@ -29,8 +29,16 @@ h2{
     color: #193b68;
     text-transform: uppercase;
 }
+h5{
+    color: #193b68;
+    font-family: "Lato";
+}
+h6{
+    margin-top: 5px;
+    color: #000000bf;
+}
 hr{
-    border-top: 1px solid #1470ff;
+    border-top: 1px solid #00000040;
 }
 
 .actionBtn{
@@ -66,7 +74,7 @@ hr{
 }
 
 .Formdiv{
-    width: 40%;
+    width: 45%;
     position: absolute;
     top: 15%;
     left: 27%;
@@ -76,7 +84,7 @@ hr{
     padding: 20px;
 }
 .PostDiv{
-    width: 40%;
+    width: 45%;
     position: absolute;
     top: 15%;
     left: 27%;
@@ -118,7 +126,7 @@ label{
     justify-content: center;
 }
 .secondary2{
-    width: 60px;
+    width: 90px;
     height: 40px;
     border: none;
     border-radius: 5px;
@@ -130,22 +138,31 @@ label{
     margin-left: 8px;
 }
 .end{
-    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 .action{
-    position: absolute;
-    width: 140px;
+    width: 200px;
     height: 50px;
-    top: 1%;
-    right: 2%;
+}
+.icon{
+    margin: 0px 5px;
 }
 .Greeting{
     position: absolute;
     top: 15%;
-    left: 70%;
-    width: 25%;
-    height: 400px;
+    left: 75%;
+    width: 20%;
     background-color: white;
     box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    border: 2px solid #1470ff;
+    padding: 20px;
+}
+p{
+    color: #000000b3;
+}
+.subinfo{
+    display: flex;
+    justify-content: space-between;
 }

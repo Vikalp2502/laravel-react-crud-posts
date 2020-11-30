@@ -65,7 +65,8 @@ class postController extends Controller
      */
     public function edit($id)
     {
-        //
+        $posts = Post::find($id);
+        return response()->json(['status' => 200, 'posts' => $posts]);
     }
 
     /**
@@ -77,7 +78,13 @@ class postController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $posts = Post::find($id);
+        $posts->title = $request->title;
+        $posts->type = $request->type;
+        $posts->description = $request->description;
+        if($posts -> save()){
+            return response()->json(["status" => 200]);
+        }
     }
 
     /**
@@ -88,6 +95,9 @@ class postController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $posts = Post::find($id);
+        if($posts -> delete()){
+            return response()->json(["status" => 200]);
+        }
     }
 }
