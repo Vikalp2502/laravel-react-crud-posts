@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>T&P Cell,GNDEC</title>
-        
+        <link rel="icon" href="{{asset('images/logo.png')}}"/>
         <link href="{{asset('css/app.css')}}" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 	    <link href="https://fonts.googleapis.com/css?family=Montserrat|Tangerine|Lato:wght@900&display=swap" rel="stylesheet" />

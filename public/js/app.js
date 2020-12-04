@@ -16378,7 +16378,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "body{\r\n    background-color: #193b681a;\r\n}\r\n.navbarBg{\r\n    background-color: white;\r\n    padding-left: 4.5%;\r\n    color: #1470ff;\r\n    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);\r\n}\r\n.navUl{\r\n    padding-right: 4.5%;\r\n}\r\n.sidebar{\r\n    width: 17%;\r\n    margin-left: 5%;\r\n    padding-top: 2%;\r\n}\r\n\r\nh1{\r\n    font-family: \"Lato\";\r\n    color: #193b68;\r\n}\r\nh3{\r\n    font-family: 'Lato';\r\n    color: #1470ff;\r\n}\r\nh2{\r\n    font-family: \"Lato\";\r\n    color: #193b68;\r\n    text-transform: uppercase;\r\n}\r\nh5{\r\n    color: #193b68;\r\n    font-family: \"Lato\";\r\n}\r\nh6{\r\n    margin-top: 5px;\r\n    color: #000000bf;\r\n}\r\nhr{\r\n    border-top: 1px solid #00000040;\r\n}\r\n\r\n.actionBtn{\r\n    width: 100%;\r\n    margin-top: 20%;\r\n    display: block;\r\n}\r\n.unactive{\r\n    width: 100%;\r\n    height: 40px;\r\n    color: #1479ff;\r\n    opacity: 0.5;\r\n    border: 2px solid #1479ff8e;\r\n    border-radius: 5px;\r\n    text-decoration: none;\r\n    margin-top: 3%;\r\n}\r\n.active{\r\n    width: 100%;\r\n    height: 40px;\r\n    background-color: white;\r\n    color: #1470ff;\r\n    border: 2px solid #1470ff;\r\n    border-radius: 5px;\r\n    text-align: center;\r\n    justify-content: center;\r\n    margin-top: 3%;\r\n    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);\r\n}\r\n.active:hover, .unactive:hover{\r\n    color: #1470ff;\r\n    text-decoration: none;\r\n}\r\n\r\n.Formdiv{\r\n    width: 45%;\r\n    position: absolute;\r\n    top: 15%;\r\n    left: 27%;\r\n    background-color: white;\r\n    border-radius: 10px;\r\n    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);\r\n    padding: 20px;\r\n}\r\n.PostDiv{\r\n    width: 45%;\r\n    position: absolute;\r\n    top: 15%;\r\n    left: 27%;\r\n}\r\nlabel{\r\n    color: #193b68;\r\n}\r\n.highlight{\r\n    border: 1px solid #1470ff;\r\n}\r\n.post{\r\n    width: 100%;\r\n    background-color: white;\r\n    padding: 15px;\r\n    border-radius: 10px;\r\n    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);\r\n    margin-bottom: 2%;\r\n}\r\n.primary{\r\n    width: 200px;\r\n    height: 40px;\r\n    border: none;\r\n    border-radius: 5px;\r\n    background-color: #1470ff;\r\n    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);\r\n    color: white;\r\n    text-align: center;\r\n    justify-content: center;\r\n}\r\n.secondary{\r\n    width: 200px;\r\n    height: 40px;\r\n    border: 2px solid #1470ff;\r\n    border-radius: 5px;\r\n    background-color: white;\r\n    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);\r\n    color: #1470ff;\r\n    text-align: center;\r\n    justify-content: center;\r\n}\r\n.secondary2{\r\n    width: 90px;\r\n    height: 40px;\r\n    border: none;\r\n    border-radius: 5px;\r\n    background-color: #1470ff1a;\r\n    box-shadow:0px 0px 3px 2px rgba(0, 0, 0, 0.1);\r\n    color: #1470ff;\r\n    text-align: center;\r\n    justify-content: center;\r\n    margin-left: 8px;\r\n}\r\n.end{\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n.action{\r\n    width: 200px;\r\n    height: 50px;\r\n}\r\n.icon{\r\n    margin: 0px 5px;\r\n}\r\n.Greeting{\r\n    position: absolute;\r\n    top: 15%;\r\n    left: 75%;\r\n    width: 20%;\r\n    background-color: white;\r\n    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);\r\n    border-radius: 10px;\r\n    border: 2px solid #1470ff;\r\n    padding: 20px;\r\n}\r\np{\r\n    color: #000000b3;\r\n}\r\n.subinfo{\r\n    display: flex;\r\n    justify-content: space-between;\r\n}", ""]);
+exports.push([module.i, "body{\r\n    background-color: #193b681a;\r\n}\r\n.navbarBg{\r\n    background-color: white;\r\n    padding-left: 4.5%;\r\n    color: #1470ff;\r\n    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);\r\n}\r\n.navUl{\r\n    padding-right: 4.5%;\r\n}\r\n.layout{\r\n    width: 100%;\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n}\r\n.sidebar{\r\n    width: 17%;\r\n    padding-top: 2%;\r\n}\r\n\r\nh1{\r\n    font-family: \"Lato\";\r\n    color: #193b68;\r\n}\r\nh3{\r\n    font-family: 'Lato';\r\n    color: #1470ff;\r\n}\r\nh2{\r\n    font-family: \"Lato\";\r\n    color: #193b68;\r\n    text-transform: uppercase;\r\n}\r\nh5{\r\n    color: #193b68;\r\n    font-family: \"Lato\";\r\n}\r\nh6{\r\n    margin-top: 5px;\r\n    color: #000000bf;\r\n}\r\nhr{\r\n    border-top: 1px solid #00000040;\r\n}\r\n\r\n.actionBtn{\r\n    width: 100%;\r\n    margin-top: 20%;\r\n    display: block;\r\n}\r\n.unactive{\r\n    width: 100%;\r\n    height: 40px;\r\n    color: #1479ff;\r\n    opacity: 0.5;\r\n    border: 2px solid #1479ff8e;\r\n    border-radius: 5px;\r\n    text-decoration: none;\r\n    margin-top: 3%;\r\n}\r\n.active{\r\n    width: 100%;\r\n    height: 40px;\r\n    background-color: white;\r\n    color: #1470ff;\r\n    border: 2px solid #1470ff;\r\n    border-radius: 5px;\r\n    text-align: center;\r\n    justify-content: center;\r\n    margin-top: 3%;\r\n    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);\r\n}\r\n.active:hover, .unactive:hover{\r\n    color: #1470ff;\r\n    text-decoration: none;\r\n}\r\n.actionDiv{\r\n    width: 45%;\r\n    margin-top: 2%;\r\n}\r\n.Formdiv{\r\n    width: 100%;\r\n    background-color: white;\r\n    border-radius: 10px;\r\n    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);\r\n    padding: 20px;\r\n    margin-bottom: 2%;\r\n}\r\n.PostDiv{\r\n    width: 45%;\r\n    margin-top: 2%;\r\n}\r\nlabel{\r\n    color: #193b68;\r\n}\r\n.highlight{\r\n    border: 1px solid #1470ff;\r\n}\r\n.post{\r\n    width: 100%;\r\n    background-color: white;\r\n    padding: 15px;\r\n    border-radius: 10px;\r\n    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);\r\n    margin-bottom: 2%;\r\n}\r\n.primary{\r\n    width: 200px;\r\n    height: 40px;\r\n    border: none;\r\n    border-radius: 5px;\r\n    background-color: #1470ff;\r\n    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);\r\n    color: white;\r\n    text-align: center;\r\n    justify-content: center;\r\n}\r\n.secondary{\r\n    width: 200px;\r\n    height: 40px;\r\n    border: 2px solid #1470ff;\r\n    border-radius: 5px;\r\n    background-color: white;\r\n    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);\r\n    color: #1470ff;\r\n    text-align: center;\r\n    justify-content: center;\r\n}\r\n.secondary2{\r\n    width: 90px;\r\n    height: 40px;\r\n    border: none;\r\n    border-radius: 5px;\r\n    background-color: #1470ff1a;\r\n    box-shadow:0px 0px 3px 2px rgba(0, 0, 0, 0.1);\r\n    color: #1470ff;\r\n    text-align: center;\r\n    justify-content: center;\r\n    margin-left: 8px;\r\n}\r\n.end{\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n.action{\r\n    width: 200px;\r\n    height: 50px;\r\n}\r\n.icon{\r\n    margin: 0px 5px;\r\n}\r\n.divider{\r\n    width: 100%;\r\n    text-align: center;\r\n    margin: 5% 0;\r\n}\r\n.right-sidebar{\r\n    width: 20%;\r\n    margin-top: 2%;\r\n}\r\n.Greeting{\r\n    width: 100%;\r\n    background-color: white;\r\n    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);\r\n    border-radius: 10px;\r\n    border: 2px solid #1470ff;\r\n    padding: 20px;\r\n}\r\np{\r\n    color: #000000b3;\r\n}\r\n.subinfo{\r\n    display: flex;\r\n    justify-content: space-between;\r\n}", ""]);
 
 // exports
 
@@ -81637,7 +81637,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _Posts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Posts */ "./resources/js/components/Posts.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 
@@ -81667,6 +81668,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -81776,28 +81778,32 @@ var EditPosts = /*#__PURE__*/function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "layout"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "sidebar"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "Update"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "Your Posts"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "actionBtn"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         className: "unactive"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
         icon: "home",
         className: "icon"
       }), "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         className: "active"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
         to: "/"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
         icon: "desktop",
         className: "icon"
       }), "Dashboard")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         className: "unactive"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
         icon: "pencil-alt",
         className: "icon"
       }), "Create Posts"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "actionDiv"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "Formdiv"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
         onSubmit: this.updatePost
@@ -81827,7 +81833,9 @@ var EditPosts = /*#__PURE__*/function (_React$Component) {
         value: "Placement"
       }, "Placement"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
         value: "Training"
-      }, "Training"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, "Training"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
+        value: "Internship"
+      }, "Internship"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "form-group"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, "Description:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("textarea", {
         type: "text",
@@ -81842,17 +81850,19 @@ var EditPosts = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         type: "submit",
         className: "primary"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
         icon: "plus",
         className: "icon"
-      }), "Edit Post")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }), "Edit Post"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "right-sidebar"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "Greeting"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Good Evening!!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", null, "Hello, Welcome Back!. And Have A Nice Day"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         className: "primary"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
         icon: "calendar",
         className: "icon"
-      }), "View Events")));
+      }), "View Events"))));
     }
   }]);
 
@@ -82099,7 +82109,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
+/* harmony import */ var _Posts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Posts */ "./resources/js/components/Posts.js");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 
@@ -82129,6 +82140,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -82198,30 +82210,34 @@ var createPosts = /*#__PURE__*/function (_React$Component) {
   _createClass(createPosts, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "layout"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "sidebar"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "Create"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "A New Posts"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "actionBtn"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         className: "unactive"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
         icon: "home",
         className: "icon"
       }), "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         className: "active"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
         to: "/"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
         icon: "desktop",
         className: "icon"
       }), "Dashboard")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         className: "unactive"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
         to: "/addPosts"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
         icon: "pencil-alt",
         className: "icon"
       }), "Create Posts")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "actionDiv"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "Formdiv"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
         onSubmit: this.savePost
@@ -82251,7 +82267,9 @@ var createPosts = /*#__PURE__*/function (_React$Component) {
         value: "Placement"
       }, "Placement"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
         value: "Training"
-      }, "Training"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, "Training"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
+        value: "Internship"
+      }, "Internship"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "form-group"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", null, "Description:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("textarea", {
         type: "text",
@@ -82266,17 +82284,21 @@ var createPosts = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         type: "submit",
         className: "primary"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
         icon: "plus",
         className: "icon"
       }), "Add Post")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "divider"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Your Posts")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Posts__WEBPACK_IMPORTED_MODULE_4__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "right-sidebar"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "Greeting"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Good Evening!!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h5", null, "Hello, Welcome Back!. And Have A Nice Day"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         className: "primary"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
         icon: "calendar",
         className: "icon"
-      }), "View Events")));
+      }), "View Events"))));
     }
   }]);
 
@@ -82342,7 +82364,9 @@ var dashboard = /*#__PURE__*/function (_React$Component) {
   _createClass(dashboard, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "layout"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "sidebar"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Your"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Dashboard"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "actionBtn"
@@ -82368,13 +82392,15 @@ var dashboard = /*#__PURE__*/function (_React$Component) {
       }), "Create Posts")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "PostDiv"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Posts__WEBPACK_IMPORTED_MODULE_2__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "right-sidebar"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "Greeting"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Good Evening!!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", null, "Hello, Welcome Back!. And Have A Nice Day"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
         className: "primary"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
         icon: "calendar",
         className: "icon"
-      }), "View Events")));
+      }), "View Events"))));
     }
   }]);
 
@@ -82413,19 +82439,21 @@ _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__["library"].add(_f
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../logo.png */ "./resources/logo.png");
-/* harmony import */ var _logo_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_logo_png__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../logo.png */ "./resources/logo.png");
+/* harmony import */ var _logo_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_logo_png__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 
 var navbar = function navbar() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
     className: "navbar navbarBg"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     className: "navbar-brand",
-    href: "#"
+    to: "/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _logo_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    src: _logo_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     width: "30",
     height: "30",
     className: "d-inline-block align-top",

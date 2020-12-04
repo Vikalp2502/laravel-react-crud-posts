@@ -10,9 +10,13 @@ body{
 .navUl{
     padding-right: 4.5%;
 }
+.layout{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
 .sidebar{
     width: 17%;
-    margin-left: 5%;
     padding-top: 2%;
 }
 
@@ -72,22 +76,21 @@ hr{
     color: #1470ff;
     text-decoration: none;
 }
-
-.Formdiv{
+.actionDiv{
     width: 45%;
-    position: absolute;
-    top: 15%;
-    left: 27%;
+    margin-top: 2%;
+}
+.Formdiv{
+    width: 100%;
     background-color: white;
     border-radius: 10px;
     box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    margin-bottom: 2%;
 }
 .PostDiv{
     width: 45%;
-    position: absolute;
-    top: 15%;
-    left: 27%;
+    margin-top: 2%;
 }
 label{
     color: #193b68;
@@ -148,11 +151,17 @@ label{
 .icon{
     margin: 0px 5px;
 }
-.Greeting{
-    position: absolute;
-    top: 15%;
-    left: 75%;
+.divider{
+    width: 100%;
+    text-align: center;
+    margin: 5% 0;
+}
+.right-sidebar{
     width: 20%;
+    margin-top: 2%;
+}
+.Greeting{
+    width: 100%;
     background-color: white;
     box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
     border-radius: 10px;

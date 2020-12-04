@@ -5,7 +5,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 class dashboard extends React.Component {
     render(){
         return(
-            <div>
+            <div className="layout">
                 <div className="sidebar">
                     <h1>Your</h1>
                     <h1>Dashboard</h1>
@@ -18,10 +18,12 @@ class dashboard extends React.Component {
                 <div className="PostDiv">
                     <Posts />
                 </div>
-                <div className="Greeting">
-                    <h2>Good Evening!!</h2>
-                    <h5>Hello, Welcome Back!. And Have A Nice Day</h5>
-                    <button className="primary"><FontAwesomeIcon icon="calendar" className="icon"/>View Events</button>
+                <div className="right-sidebar">
+                    <div className="Greeting">
+                        <h2>Good Evening!!</h2>
+                        <h5>Hello, Welcome Back!. And Have A Nice Day</h5>
+                        <button className="primary"><FontAwesomeIcon icon="calendar" className="icon"/>View Events</button>
+                    </div>
                 </div>
             </div>
         )
