@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Posts from "./Posts";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-class dashboard extends React.Component {
+class Home extends React.Component {
     render(){
         var greeting = "";
         var dt=new Date();
@@ -23,8 +23,8 @@ class dashboard extends React.Component {
                     <h1>Your</h1>
                     <h1>Dashboard</h1>
                     <div className="actionBtn">
-                        <button className="active"><Link to="/"><FontAwesomeIcon icon="home" className="icon"/>Home</Link></button>
-                        <button className="unactive"><FontAwesomeIcon icon="desktop" className="icon"/>Dashboard</button>
+                        <button className="unactive"><FontAwesomeIcon icon="home" className="icon"/>Home</button>
+                        <button className="active"><Link to="/dashboard"><FontAwesomeIcon icon="desktop" className="icon"/>Dashboard</Link></button>
                         <button className="active"><Link to="/addPosts"><FontAwesomeIcon icon="pencil-alt" className="icon"/>Create Posts</Link></button>
                     </div>
                     <div className="footer"><p className="p1">No copyright | ©️ {year}, <a href="https://github.com/vikalp2502">Vikalp Kaushik</a></p></div>
@@ -44,4 +44,4 @@ class dashboard extends React.Component {
     }
 }
 
-export default dashboard;
+export default Home;

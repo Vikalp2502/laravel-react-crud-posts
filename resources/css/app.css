@@ -5,7 +5,13 @@ body{
     background-color: white;
     padding-left: 4.5%;
     color: #1470ff;
-    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+    box-shadow:0px 15px 60px #1470ff33;
+}
+.toggle_icon{
+    color: #1470ff;
+}
+.addlink{
+    display: none;
 }
 .navUl{
     padding-right: 4.5%;
@@ -58,7 +64,7 @@ hr{
     border: 2px solid #1479ff8e;
     border-radius: 5px;
     text-decoration: none;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 .active{
     width: 100%;
@@ -69,8 +75,8 @@ hr{
     border-radius: 5px;
     text-align: center;
     justify-content: center;
-    margin-top: 3%;
-    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+    box-shadow:0px 15px 25px #1470ff66;
 }
 .active:hover, .unactive:hover{
     color: #1470ff;
@@ -84,7 +90,7 @@ hr{
     width: 100%;
     background-color: white;
     border-radius: 10px;
-    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+    box-shadow:0px 15px 25px #1470ff66;
     padding: 20px;
     margin-bottom: 2%;
 }
@@ -103,8 +109,8 @@ label{
     background-color: white;
     padding: 15px;
     border-radius: 10px;
-    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2%;
+    box-shadow:0px 15px 25px #1470ff66;
+    margin-bottom: 5%;
 }
 .primary{
     width: 200px;
@@ -112,10 +118,13 @@ label{
     border: none;
     border-radius: 5px;
     background-color: #1470ff;
-    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+    box-shadow:0px 15px 25px #1470ff66;
     color: white;
     text-align: center;
     justify-content: center;
+}
+.prim{
+    width: 95%;
 }
 .secondary{
     width: 200px;
@@ -123,30 +132,67 @@ label{
     border: 2px solid #1470ff;
     border-radius: 5px;
     background-color: white;
-    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+    box-shadow:0px 15px 25px #1470ff66;
     color: #1470ff;
     text-align: center;
     justify-content: center;
 }
 .secondary2{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #193b681a;
+    box-shadow:0px 15px 25px #193b6866;
+    color: #193b68;
+    text-align: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+.edit{
     width: 90px;
     height: 40px;
     border: none;
     border-radius: 5px;
-    background-color: #1470ff1a;
-    box-shadow:0px 0px 3px 2px rgba(0, 0, 0, 0.1);
-    color: #1470ff;
     text-align: center;
     justify-content: center;
     margin-left: 8px;
+    box-shadow:0px 15px 25px#ffff44a6;
+    background-color: #ffff44a6;
+}
+.color{
+    color: brown;
+}
+.color:hover{
+    color: brown;
+}
+.delete{
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 8px;
+    box-shadow:0px 15px 25px #ff444466;
+    background-color: #ff444466;
+    color: #ff4444;
 }
 .end{
     display: flex;
     justify-content: space-between;
 }
+.action2{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
 .action{
     width: 200px;
     height: 50px;
+    display: flex;
+    justify-content: space-around;
 }
 .icon{
     margin: 0px 5px;
@@ -163,7 +209,7 @@ label{
 .Greeting{
     width: 100%;
     background-color: white;
-    box-shadow:0px 0px 6px 4px rgba(0, 0, 0, 0.1);
+    box-shadow:0px 15px 25px #1470ff66;
     border-radius: 10px;
     border: 2px solid #1470ff;
     padding: 20px;
@@ -174,4 +220,87 @@ p{
 .subinfo{
     display: flex;
     justify-content: space-between;
+}
+.footer{
+    margin-top: 50%;
+    width: 100%;
+    height: 70px;
+    background-color: #193b681a;
+    border-radius: 5px;
+    box-shadow: 0px 15px 25px #193b6866;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+}
+.p1{
+    color: #193b68;
+}
+.addi{
+    margin-top: 10%;
+    width: 100%;
+    height: 70px;
+    background-color: #1470ff1a;
+    border-radius: 5px;
+    box-shadow: 0px 15px 25px #1470ff66;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+}
+@media screen and (max-width:1000px){
+    .right-sidebar{
+        display: none;
+    }
+    .sidebar{
+        width: 25%;
+    }
+    .actionDiv, .PostDiv{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:900px){
+    .sidebar{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:760px){
+    .sidebar{
+        display: none;
+    }
+    .addlink{
+        display: block;
+    }
+    .actionDiv, .PostDiv{
+        width: 95%;
+    }
+}
+@media screen and (max-width:500px){
+    .end{
+        display: block;
+    }
+    .action{
+        padding-top: 10px;
+        width: 300px;
+    }
+    .primary, .secondary{
+        width: 300px;
+    }
+    .secondary2{
+        width: 140px;
+    }
+}
+@media screen and (max-width:450px){
+    .action{
+        width: 80%;
+    }
+    .primary, .secondary{
+        width: 80%;
+    }
+    .secondary2{
+        width: 40%;
+    }
+    .subinfo{
+        display: block;
+    }
 }

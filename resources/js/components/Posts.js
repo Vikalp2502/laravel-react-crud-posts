@@ -1,6 +1,7 @@
 import React from "react";
 import Axios from "axios";
 import Data from "./Data";
+import HomeData from "./HomeData";
 
 class Posts extends React.Component {
     state = {
@@ -29,10 +30,19 @@ class Posts extends React.Component {
         if(this.state.loading){
             return <h1>Loading....</h1>
         }
+        if(window.location.href === window.origin + "/dashboard"){
+            return(
+                <div>
+                    {this.state.posts.map(posts => (
+                        <Data posts = {posts} key={posts.id} deletePost = {this.deletePost}/>
+                    ))}
+                </div>
+            )
+        }
         return(
             <div>
                 {this.state.posts.map(posts => (
-                    <Data posts = {posts} key={posts.id} deletePost = {this.deletePost}/>
+                    <HomeData posts = {posts} key={posts.id}/>
                 ))}
             </div>
         )

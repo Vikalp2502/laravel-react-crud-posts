@@ -3,11 +3,8 @@ import moment from "moment";
 import {Link} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-class Data extends React.Component {
-    delPost = (id) => {
-        alert("Are You Want To Delete This Post");
-        this.props.deletePost(id);
-    }
+class HomeData extends React.Component {
+
     render(){
         const {posts} = this.props;
         return(
@@ -29,9 +26,8 @@ class Data extends React.Component {
                 <hr />
                 <div className="cardFooter end">
                     <button className="primary"><FontAwesomeIcon icon="share" className="icon"/>Share</button>
-                    <div className="action">
-                        <button className="edit"><Link className="color" to={`/edit/${posts.id}`}><FontAwesomeIcon icon="edit" className="icon"/>Edit</Link></button>
-                        <button className="delete" onClick={() => this.delPost(posts.id)}><FontAwesomeIcon icon="trash-alt" className="icon"/>Delete</button>
+                    <div className="action2">
+                        <button className="secondary2"><FontAwesomeIcon icon="tags" className="icon"/>Tags</button>
                     </div>
                 </div>
             </div>
@@ -39,4 +35,4 @@ class Data extends React.Component {
     }
 }
 
-export default Data;
+export default HomeData;

@@ -1,7 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import axios from "axios";
-import Posts from "./Posts";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 class EditPosts extends React.Component {
@@ -19,7 +18,7 @@ class EditPosts extends React.Component {
         const id = this.props.match.params.id;
         const res = await axios.patch(`/addPost/${id}`, this.state);
         if(res.data.status === 200){
-            this.props.history.push("/");
+            this.props.history.push("/dashboard");
         }
     }
     async componentDidMount(){
@@ -31,16 +30,30 @@ class EditPosts extends React.Component {
     }
 
     render(){
+        var greeting = "";
+        var dt=new Date();
+        var year = dt.getFullYear();
+        var hour = dt.getHours();
+        if( hour >= 1 && hour < 12){
+            greeting = 'Good Morning!!';
+        }
+        if( hour >= 12 && hour < 19){
+            greeting = 'Good Afternoon!!';
+        }
+        else{
+            greeting = 'Good Evening!!';
+        }
         return(
             <div className="layout">
                 <div className="sidebar">
                     <h1>Update</h1>
                     <h1>Your Posts</h1>
                     <div className="actionBtn">
-                    <button className="unactive"><FontAwesomeIcon icon="home" className="icon"/>Home</button>
-                        <button className="active"><Link to="/"><FontAwesomeIcon icon="desktop" className="icon"/>Dashboard</Link></button>
+                    <button className="active"><Link to="/"><FontAwesomeIcon icon="home" className="icon"/>Home</Link></button>
+                        <button className="active"><Link to="/dashboard"><FontAwesomeIcon icon="desktop" className="icon"/>Dashboard</Link></button>
                         <button className="unactive"><FontAwesomeIcon icon="pencil-alt" className="icon"/>Create Posts</button>
                     </div>
+                    <div className="footer"><p className="p1">No copyright | ©️ {year}, <a href="https://github.com/vikalp2502">Vikalp Kaushik</a></p></div>
                 </div>
                 <div className="actionDiv">
                     <div className="Formdiv">
@@ -80,7 +93,7 @@ class EditPosts extends React.Component {
                 </div>
                 <div className="right-sidebar">
                     <div className="Greeting">
-                        <h2>Good Evening!!</h2>
+                        <h2>{greeting}</h2>
                         <h5>Hello, Welcome Back!. And Have A Nice Day</h5>
                         <button className="primary"><FontAwesomeIcon icon="calendar" className="icon"/>View Events</button>
                     </div>
