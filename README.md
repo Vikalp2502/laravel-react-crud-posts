@@ -2,10 +2,10 @@
 A crud operation web application where you can Create, Retrieve, Update, Delete Posts. Backend in Laravel PHP framework and Frontend in React JS framework.
 
 ## Thumbnail
-   <img src="https://miro.medium.com/max/700/1*CiWgRx5O9ygMWnSJx8FNng.png" width="300px" />
+   <img src="https://miro.medium.com/max/700/1*CiWgRx5O9ygMWnSJx8FNng.png" />
    
 ## Demo
-   <img src="https://miro.medium.com/max/640/1*-ToT2b2BDsX70h8L4e12WA.gif" width="300px" />
+   <img src="https://miro.medium.com/max/640/1*-ToT2b2BDsX70h8L4e12WA.gif" />
 
 ## Features
 
@@ -38,6 +38,6 @@ A crud operation web application where you can Create, Retrieve, Update, Delete 
     9. php artisan serve
 
 ## Queries & More Content
-    1. [Medium](https://medium.com/@vikalpkaushik99)
-    2. [LinkedIn](https://www.linkedin.com/in/vikalp-kaushik-99966a1ab)
-    3. [Instagram](https://www.instagram.com/vikalp._.kaushik)
+[Medium](https://medium.com/@vikalpkaushik99)
+[LinkedIn](https://www.linkedin.com/in/vikalp-kaushik-99966a1ab)
+[Instagram](https://www.instagram.com/vikalp._.kaushik)
