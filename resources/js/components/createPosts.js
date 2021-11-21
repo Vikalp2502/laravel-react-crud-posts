@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 import axios from "axios";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import Rightbar from "./Rightbar";
 class createPosts extends React.Component {
     state = {
         title: '',
@@ -21,19 +22,6 @@ class createPosts extends React.Component {
     }
 
     render(){
-        var greeting = "";
-        var dt=new Date();
-        var year = dt.getFullYear();
-        var hour = dt.getHours();
-        if( hour >= 1 && hour < 12){
-            greeting = 'Good Morning!!';
-        }
-        if( hour >= 12 && hour < 19){
-            greeting = 'Good Afternoon!!';
-        }
-        else{
-            greeting = 'Good Evening!!';
-        }
         return(
             <div className="layout">
                 <div className="sidebar">
@@ -44,13 +32,12 @@ class createPosts extends React.Component {
                         <button className="active"><Link to="/dashboard"><FontAwesomeIcon icon="desktop" className="icon"/>Dashboard</Link></button>
                         <button className="unactive"><FontAwesomeIcon icon="pencil-alt" className="icon"/>Create Posts</button>
                     </div>
-                    <div className="footer"><p className="p1">No copyright | ©️ {year}, <a href="https://github.com/vikalp2502">Vikalp Kaushik</a></p></div>
                 </div>
                 <div className="actionDiv">
                     <div className="Formdiv">
                         <form onSubmit={this.savePost}>
                             <div className="form-group">
-                                <label>Title:</label>
+                                <label className="top">Title:</label>
                                 <input type="text" name="title" className="form-control highlight" 
                                 value={this.state.title} onChange={this.handleInput}
                                 placeholder="Enter the Title" required/>
@@ -60,11 +47,11 @@ class createPosts extends React.Component {
                                 <select name="type" className="form-control highlight" 
                                 value={this.state.type} onChange={this.handleInput}
                                 required>
-                                    <option value="Announcement">Announcement</option>
-                                    <option value="Selection">Selection</option>
-                                    <option value="Placement">Placement</option>
-                                    <option value="Training">Training</option>
-                                    <option value="Internship">Internship</option>
+                                    <option value="Technology">Technology</option>
+                                    <option value="Programming">Programming</option>
+                                    <option value="Design">Design</option>
+                                    <option value="Development">Development</option>
+                                    <option value="Creativity">Creativity</option>
                                 </select>
                             </div>
                             <div className="form-group">
@@ -73,22 +60,14 @@ class createPosts extends React.Component {
                                 value={this.state.description} onChange={this.handleInput} 
                                 placeholder="Write the Description" required/>
                             </div>
-                            <div className="form-group">
-                                <button type="submit" className="primary">
-                                    <FontAwesomeIcon icon="plus" className="icon"/>
-                                    Add Post
-                                </button>
-                            </div>
+                            <button type="submit" className="primary">
+                                <FontAwesomeIcon icon="plus" className="icon"/>
+                                Add Post
+                            </button>
                         </form>
                     </div>
                 </div>
-                <div className="right-sidebar">
-                    <div className="Greeting">
-                        <h2>{greeting}</h2>
-                        <h5>Hello, Welcome Back!. And Have A Nice Day</h5>
-                        <button className="primary"><FontAwesomeIcon icon="calendar" className="icon"/>View Events</button>
-                    </div>
-                </div>
+                <Rightbar />
             </div>
         )
     }

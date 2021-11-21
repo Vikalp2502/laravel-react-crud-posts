@@ -1,11 +1,16 @@
 body{
-    background-color: #193b681a;
+    background-color: #e9f3fd;
+    font-family: "Open Sans";
 }
 .navbarBg{
     background-color: white;
     padding-left: 4.5%;
     color: #1470ff;
-    box-shadow:0px 15px 60px #1470ff33;
+    box-shadow:0px 15px 30px #8a959e33;
+}
+.Logo{
+    padding-top: 5px;
+    width: 90%;
 }
 .toggle_icon{
     color: #1470ff;
@@ -26,26 +31,38 @@ body{
     padding-top: 2%;
 }
 
+.link{
+    color: #ffffff;
+}
+.link:hover{
+    color: #ffffff;
+}
+
 h1{
-    font-family: "Lato";
-    color: #193b68;
+    color: #303030;
+    font-size: 32px;
+    font-weight: 500;
 }
 h3{
-    font-family: 'Lato';
     color: #1470ff;
 }
 h2{
-    font-family: "Lato";
-    color: #193b68;
+    font-size: 22px;
+    font-weight: 600;
+    color: #303030;
     text-transform: uppercase;
+    padding: 5% 0 0 5%;
 }
 h5{
-    color: #193b68;
-    font-family: "Lato";
+    color: #606060;
+    font-size: 15px;
+    padding-left: 5%;
 }
 h6{
-    margin-top: 5px;
-    color: #000000bf;
+    color: #606060;
+    font-size: 12px;
+    margin-left: 15px;
+    font-weight: 600;
 }
 hr{
     border-top: 1px solid #00000040;
@@ -58,25 +75,25 @@ hr{
 }
 .unactive{
     width: 100%;
-    height: 40px;
+    height: 45px;
     color: #1479ff;
     opacity: 0.5;
-    border: 2px solid #1479ff8e;
-    border-radius: 5px;
+    border: 1px solid #1479ff8e;
+    border-radius: 10px;
     text-decoration: none;
     margin-top: 5%;
 }
 .active{
     width: 100%;
-    height: 40px;
+    height: 45px;
     background-color: white;
     color: #1470ff;
-    border: 2px solid #1470ff;
-    border-radius: 5px;
+    border: 1px solid #1470ff;
+    border-radius: 10px;
     text-align: center;
     justify-content: center;
     margin-top: 5%;
-    box-shadow:0px 15px 25px #1470ff66;
+    box-shadow:0px 15px 30px #8a959e33;
 }
 .active:hover, .unactive:hover{
     color: #1470ff;
@@ -91,15 +108,24 @@ hr{
     background-color: white;
     border-radius: 10px;
     box-shadow:0px 15px 25px #1470ff66;
-    padding: 20px;
     margin-bottom: 2%;
+}
+.form-top{
+    padding-top: 5%;
+}
+.form-group{
+    padding: 0 5%;
 }
 .PostDiv{
     width: 45%;
     margin-top: 2%;
 }
 label{
-    color: #193b68;
+    color: #303030;
+    font-weight: 600;
+}
+.top{
+    padding-top: 20px;
 }
 .highlight{
     border: 1px solid #1470ff;
@@ -107,18 +133,45 @@ label{
 .post{
     width: 100%;
     background-color: white;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow:0px 15px 25px #1470ff66;
+    border-radius: 16px;
+    box-shadow:0px 15px 30px #8a959e33;
     margin-bottom: 5%;
 }
+.type{
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #303030;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #e5e5e5;
+    margin: 15px 0 5px 15px;
+    border-radius: 10px;
+}
+.cardTitle{
+    font-size: 24px;
+    font-weight: 600;
+    color: #303030;
+    margin-left: 15px;
+    word-wrap: keep-all;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+.description{
+    margin: 15px;
+    font-size: 16px;
+    color: #606060;
+}
 .primary{
-    width: 200px;
-    height: 40px;
+    width: 90%;
+    margin: 5%;
+    height: 45px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #1470ff;
-    box-shadow:0px 15px 25px #1470ff66;
+    box-shadow:0px 15px 30px #1470ff33;
     color: white;
     text-align: center;
     justify-content: center;
@@ -150,33 +203,15 @@ label{
     margin-left: 8px;
 }
 .edit{
-    width: 90px;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    justify-content: center;
-    margin-left: 8px;
-    box-shadow:0px 15px 25px#ffff44a6;
-    background-color: #ffff44a6;
-}
-.color{
-    color: brown;
-}
-.color:hover{
-    color: brown;
+    font-size: 12px;
+    font-weight: 600;
+    color: #228B22 !important;
 }
 .delete{
-    width: 90px;
-    height: 40px;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    justify-content: center;
-    margin-left: 8px;
-    box-shadow:0px 15px 25px #ff444466;
-    background-color: #ff444466;
+    font-size: 12px;
+    font-weight: 600;
     color: #ff4444;
+    cursor: pointer;
 }
 .end{
     display: flex;
@@ -189,8 +224,8 @@ label{
     justify-content: space-around;
 }
 .action{
-    width: 200px;
-    height: 50px;
+    width: 30%;
+    height: 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -209,10 +244,8 @@ label{
 .Greeting{
     width: 100%;
     background-color: white;
-    box-shadow:0px 15px 25px #1470ff66;
-    border-radius: 10px;
-    border: 2px solid #1470ff;
-    padding: 20px;
+    box-shadow:0px 15px 25px #8a959e33;
+    border-radius: 16px;
 }
 p{
     color: #000000b3;
@@ -220,20 +253,23 @@ p{
 .subinfo{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20px;
 }
 .footer{
-    margin-top: 50%;
+    margin-top: 20%;
     width: 100%;
-    height: 70px;
-    background-color: #193b681a;
-    border-radius: 5px;
-    box-shadow: 0px 15px 25px #193b6866;
+    height: 50px;
+    background-color: #1470ff;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px #1470ff33;
     text-align: center;
     display: flex;
     padding: 10px;
 }
 .p1{
-    color: #193b68;
+    color: #ffffff;
 }
 .addi{
     margin-top: 10%;
@@ -265,42 +301,38 @@ p{
 }
 
 @media screen and (max-width:760px){
-    .sidebar{
-        display: none;
+    .layout{
+        display: block;
+        padding-left: 5%;
     }
     .addlink{
         display: block;
     }
+    .sidebar{
+        width: 95%;
+        margin-bottom: 20%;
+    }
+    .actionBtn{
+        margin-top: 5%;
+    }
     .actionDiv, .PostDiv{
         width: 95%;
+        margin-bottom: 10%;
     }
 }
 @media screen and (max-width:500px){
     .end{
         display: block;
     }
-    .action{
-        padding-top: 10px;
-        width: 300px;
-    }
-    .primary, .secondary{
-        width: 300px;
-    }
-    .secondary2{
-        width: 140px;
+    .type{
+        width: 60%;
     }
 }
 @media screen and (max-width:450px){
-    .action{
-        width: 80%;
-    }
-    .primary, .secondary{
-        width: 80%;
-    }
-    .secondary2{
-        width: 40%;
-    }
     .subinfo{
         display: block;
+    }
+    .action{
+        width: 40%;
     }
 }

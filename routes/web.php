@@ -24,6 +24,6 @@ Route::get('/addPosts', function () {
 });
 Route::get('/edit/:id', function () {
     return view('welcome');
-});
+})->name('example');
 
 Route::resource('/addPost', "postController");

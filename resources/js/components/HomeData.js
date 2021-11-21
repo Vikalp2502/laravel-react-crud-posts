@@ -10,25 +10,17 @@ class HomeData extends React.Component {
         return(
             <div className="card post">
                 <div className="cardHeader">
-                    <h2>{posts.title}</h2>
+                    <div className="type">{posts.type}</div>
+                    <p className="cardTitle">{posts.title}</p>
                     <div className="subinfo">
-                        <h6><FontAwesomeIcon icon="calendar" className="icon"/>
+                        <h6>
                             {moment(posts.updated_at).format('LLL')}
                         </h6>
-                        <h6><FontAwesomeIcon icon="flag" className="icon"/>{posts.type}</h6>
+                        <div></div>
                     </div>
                 </div>
-                <hr />
                 <div className="cardBody">
-                    <p>{posts.description}</p>
-                    <button className="secondary"><FontAwesomeIcon icon="book-open" className="icon"/>Read More</button>
-                </div>
-                <hr />
-                <div className="cardFooter end">
-                    <button className="primary"><FontAwesomeIcon icon="share" className="icon"/>Share</button>
-                    <div className="action2">
-                        <button className="secondary2"><FontAwesomeIcon icon="tags" className="icon"/>Tags</button>
-                    </div>
+                    <p className="description">{posts.description}</p>
                 </div>
             </div>
         )
